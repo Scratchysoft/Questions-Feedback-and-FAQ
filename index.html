@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Scratchysoft-Store</title>
+<link rel="shortcut icon" href="https://raw.githubusercontent.com/Scratchysoft/home/master/Scratchysoft%20logo.jpg" />
+</head>
+<style>
+ body {
+    background-color: DodgerBlue;
+    color: White;
+    font-family: "Arial";
+}
+
+h1 {
+    background-color: Tomato;
+    color: White;
+    font-family: "Arial";
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+ h2 {
+ background-color: Tomato;
+    color: White;
+    font-family: "Arial";
+    margin-left: 20px;
+    margin-right: 20px;
+ 
+ }
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1e90ff;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #ff6347;
+}
+ @keyframes example {
+    0%   {background-color:Tomato; left:-50x; top:0px;}
+    50%  {background-color:DodgerBlue; left:-50px; top:0px;}
+    100% {background-color:Tomato; left:-50px; top:0px;}
+}
+
+/* The element to apply the animation to */
+div {
+    width: 6000px;
+    height: 5px;
+    position: -50px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+</style>
+<body>
+
+ <ul>
+  <li><a style="color:white" href="/home">Home</a></li>
+  <li><a style="color:white" href="/store">Store</a></li>
+  <li><a style="color:white" href="/onlinegames">Games</a></li>
+  <li><a style="color:white" href="/about">About</a></li>
+  <li><a style="color:white" class="active" href="/Questions-Feedback-and-FAQ">Questions Feedback & FAQ</a></li>
+</ul>
+  
+<h1>Questions Feedback & FAQ</h1>
+
+ <form action="https://formspree.io/kartkrafteryt@gmail.com" method="POST">
+  <p style="color:white">Name</p>
+  <input type="text" name="name">
+  <p style="color:white">Email</p>
+  <input type="email" name="_replyto">
+  <p style="color:white">Question or Feedback</p>
+  <input type="text" name="data">
+  <input type="submit" value="Send">
+</form>
+<h2>FAQ</h2>
+
+</body>
+</html>
